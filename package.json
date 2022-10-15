@@ -1,4 +1,9 @@
 {
+  "scripts": {
+    "start": "tsc && node --unhandled-rejections=strict ./dist/app.js",
+    "debug": "export DEBUG=* && npm run start",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
   "devDependencies": {
     "@types/cors": "^2.8.12",
     "@types/debug": "^4.1.7",
